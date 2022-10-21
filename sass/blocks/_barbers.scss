@@ -1,0 +1,44 @@
+#barbers {
+    margin-bottom: 250px;
+}
+
+.barber-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.barber-card .text-bg {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.barber-card h2 {
+    position: absolute;
+    right: 150px;
+    bottom: 0;
+}
+
+.slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .barber-card {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .barber-card .text-bg {
+        position: relative;
+    }
+
+    .barber-card h2 {
+        position: relative;
+        top: 150px;
+        right: 195px;
+    }
+}

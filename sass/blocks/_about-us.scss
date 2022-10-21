@@ -1,0 +1,56 @@
+#about-us {
+    margin: 175px 0 150px 0;
+}
+
+.about-us-1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+.about-us-1 .text-bg {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+#about-us-icon-1 {
+    position: relative;
+    top: -50px;
+}
+
+.about-us-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-card {
+    max-width: 467px;
+}
+
+.about-us-card img {
+    margin-bottom: 105px;
+}
+
+#about-us-icon-2 {
+    position: relative;
+    top: 250px;
+    left: 850px;
+}
+
+@media (max-width: 1200px) {
+    .about-us-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-2 div:not(:last-child) {
+        margin-bottom: 150px;
+    }
+
+    #about-us-icon-2 {
+        top: 150px;
+        left: 200px;
+    }
+}
